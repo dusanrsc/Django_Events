@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+	</head>
+	<body>
+		<div class="container"><br/><br/>
+			<h1 class="text bg-primary text-light">Welcome To DjangoEvents Website!</h1>
+			<h2 class="text bg-primary text-light">This DjangoEvents Website Is CRUD!</h2><br/>
+			<h3 class="text bg-primary text-light">In DjangoEvents website you are able to: Create, Read, Update & Delete!</h3>
+
+			<h4 class="text bg-light text-dark"> • Events have couple main components such as: Event Title, Event Location, Event Description, Event starting Time, Event starting Date and Event Vacancies!</h4><br/>
+
+			<h3 class="text bg-primary text-light">What else about DjangoEvents?</h3>
+			<h4 class="text bg-light text-dark"> • As we know CRUD stands for: Create, Read, Update and Delete.<br/> • Most websites those days are essentially CRUD.<br/>  • Around 80% of total web locations those days are CRUD.</h4><br/>
+
+			<h5 class="text text-dark">Do not have any events yet? Create an event <a href="{% url 'create_event' %}">here</a>.</h5>
+
+		</div>
+	</body>
+</html>
+{% endblock %}

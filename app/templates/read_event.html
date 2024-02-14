@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Event</title>
+  </head>
+  <body>
+    <div class="container"><br/><br/>
+      <h1 class="text bg-primary text-light">Read Events Down Below!</h1>
+      <h2 class="text bg-primary text-light">Event Table! You Can Update & Delete Events In Table!</h2>
+      <table class="table bg-light table-sm table-borderless table-hover table-striped">
+        <thead>
+          <tr>
+            <th scope="col"><h5>ID</h5></th>
+            <th scope="col"><h5>Event Title</h5></th>
+            <th scope="col"><h5>Event Location</h5></th>
+            <th scope="col"><h5>Event Desctiption</h5></th>
+            <th scope="col"><h5>Event Date</h5></th>
+            <th scope="col"><h5>Event Time</h5></th>
+            <th scope="col"><h5>Tickets</h5></th>
+            <th scope="col"><h5>Customization</h5></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for event in event %}
+          <tr>
+            <th scope="row"><h6>{{ event.id }}</h6></th>
+            <td><h6>{{ event.title }}</h6></td>
+            <td><h6>{{ event.location }}</h6></td>
+            <td><h6>{{ event.description }}</h6></td>
+            <td><h6>{{ event.date }}</h6></td>
+            <td><h6>{{ event.time }}</h6></td>
+            <td><h6>{{ event.tickets }}</h6></td>
+            <td><a href="{% url 'update_event' event.id %}" class="btn btn-sm btn-secondary">Update</a>&nbsp<a href="{% url 'delete_event' event.id %}" class="btn btn-sm btn-danger">Delete</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <br/><br/><br/><br/>
+      <br/><br/><br/><br/>
+      <br/><br/><br/><br/>
+    </div>
+  </body>
+</html>
+{% endblock %}
