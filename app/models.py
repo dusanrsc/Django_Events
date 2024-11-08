@@ -8,7 +8,7 @@ class Event(models.Model):
 	description = models.TextField(max_length=25)
 	date = models.DateField(max_length=15)
 	time = models.TimeField(max_length=15)
-	tickets = models.IntegerField()
+	capacity = models.IntegerField()
 
 	def __str__(self):
 		return self.title

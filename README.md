@@ -6,3 +6,4 @@
 ![screenshot2](https://github.com/dusanrsc/Django_Events/assets/149257819/60cd16c6-88fd-450a-8452-949ddcfd3136)
 ![screenshot3](https://github.com/dusanrsc/Django_Events/assets/149257819/b5acc79b-29ea-42a0-a35c-f3b0c644ac52)
 ![screenshot4](https://github.com/dusanrsc/Django_Events/assets/149257819/defe5c39-302e-4bc6-ade6-8d17d139da77)
+"# Django_Events" 

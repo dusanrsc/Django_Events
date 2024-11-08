@@ -15,7 +15,7 @@ class EventForm(forms.ModelForm):
 			"description": "",
 			"date": "",
 			"time": "",
-			"tickets": "",
+			"capacity": "",
 		}
 
 		widgets = {
@@ -24,5 +24,5 @@ class EventForm(forms.ModelForm):
 			"description": forms.Textarea(attrs={"placeholder":"Event Description", "class":"form-control", "style":"width:350px", "rows":"1"}),
 			"date": forms.TextInput(attrs={"placeholder":"Event Date", "class":"form-control", "style": "width:350px"}),
 			"time": forms.TextInput(attrs={"placeholder":"Event Time", "class":"form-control", "style": "width:350px"}),
-			"tickets": forms.TextInput(attrs={"placeholder":"Event Ticket", "class":"form-control", "style": "width:350px"}),
+			"capacity": forms.TextInput(attrs={"placeholder":"Event Capacity", "class":"form-control", "style": "width:350px"}),
 		}

@@ -22,7 +22,7 @@
             <th scope="col"><h5>Event Desctiption</h5></th>
             <th scope="col"><h5>Event Date</h5></th>
             <th scope="col"><h5>Event Time</h5></th>
-            <th scope="col"><h5>Tickets</h5></th>
+            <th scope="col"><h5>Capacity</h5></th>
             <th scope="col"><h5>Customization</h5></th>
           </tr>
         </thead>
@@ -35,7 +35,7 @@
             <td><h6>{{ event.description }}</h6></td>
             <td><h6>{{ event.date }}</h6></td>
             <td><h6>{{ event.time }}</h6></td>
-            <td><h6>{{ event.tickets }}</h6></td>
+            <td><h6>{{ event.capacity }}</h6></td>
             <td><a href="{% url 'update_event' event.id %}" class="btn btn-sm btn-secondary">Update</a>&nbsp<a href="{% url 'delete_event' event.id %}" class="btn btn-sm btn-danger">Delete</a></td>
           </tr>
           {% endfor %}
