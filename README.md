@@ -2,8 +2,8 @@
 # Developed in Python's backend web framework Django.
 # All CRUD operations are available...
 
-![screenshot1](https://github.com/dusanrsc/Django_Events/assets/149257819/68e9288a-365c-436a-8821-f60debee535c)
-![screenshot2](https://github.com/dusanrsc/Django_Events/assets/149257819/60cd16c6-88fd-450a-8452-949ddcfd3136)
-![screenshot3](https://github.com/dusanrsc/Django_Events/assets/149257819/b5acc79b-29ea-42a0-a35c-f3b0c644ac52)
-![screenshot4](https://github.com/dusanrsc/Django_Events/assets/149257819/defe5c39-302e-4bc6-ade6-8d17d139da77)
-"# Django_Events" 
+# Screenshots:
+![screenshot1](https://github.com/user-attachments/assets/fe5cba1a-ed7f-4f3e-ae61-f9144645c1b8)
+![screenshot2](https://github.com/user-attachments/assets/731fd132-20f0-490e-97d4-62a1d66c32c4)
+![screenshot3](https://github.com/user-attachments/assets/6be277bf-19da-48b8-977e-2ccdebecb235)
+![screenshot4](https://github.com/user-attachments/assets/9597d444-6297-4ad2-86ce-96a9fbf365de)
